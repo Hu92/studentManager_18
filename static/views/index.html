@@ -57,9 +57,7 @@
         <div class="row">
             <div class="col-md-3">
                 <div class="list-group">
-                    <a href="#" class="list-group-item active">
-                        学生管理
-                    </a>
+                    <a href="#" class="list-group-item active">学生管理</a>
                     <a href="#" class="list-group-item">系统管理</a>
                     <a href="#" class="list-group-item">用户管理</a>
                     <a href="#" class="list-group-item">修改密码</a>
@@ -67,42 +65,60 @@
                 </div>
             </div>
             <div class="col-md-9">
-                <div class="panel-heading">
-                    <ol class="breadcrumb">
-                        <li>
-                            <a href="#">首页</a>
-                        </li>
-                        <li>
-                            <a href="#">学生管理</a>
-                        </li>
-                        <li class="active">学生列表</li>
-                    </ol>
-                    <form class="form-inline">
-                        <div class="form-group">
-                            <label class="sr-only" for="exampleInputAmount">Amount (in dollars)</label>
-                            <div class="input-group">
-                                <div class="input-group-addon">学生姓名</div>
-                                <input type="text" class="form-control" id="exampleInputAmount" placeholder="请输入学生姓名进行查询">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <ol class="breadcrumb">
+                            <li>
+                                <a href="#">首页</a>
+                            </li>
+                            <li>
+                                <a href="#">学生管理</a>
+                            </li>
+                            <li class="active">学生列表</li>
+                        </ol>
+                    </div>
+                    <div class="panel-heading">
+                        <form class="form-inline">
+                            <div class="form-group">
+                                <label class="sr-only" for="exampleInputAmount">Amount (in dollars)</label>
+                                <div class="input-group">
+                                    <div class="input-group-addon">学生姓名</div>
+                                    <input type="text" class="form-control" id="exampleInputAmount" placeholder="请输入学生姓名进行查询">
 
+                                </div>
                             </div>
-                        </div>
-                        <button type="submit" class="btn btn-success">查找</button>
-                        <button type="submit" class="btn btn-success">新增</button>
-                    </form>
-                </div>
+                            <button type="submit" class="btn btn-success">查找</button>
+                            <button type="submit" class="btn btn-success">新增</button>
+                        </form>
+                    </div>
 
-                <div class="panel-body">
-                    <table class="table table-bordered">
-                        <thead>
-                            <tr>
-                                <th>姓名</th>
-                                <th>年龄</th>
-                                <th>性别</th>
-                                <th>手机号码</th>
-                                <th>操作</th>
-                            </tr>
-                        </thead>
-                    </table>
+                    <div class="panel-body">
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>姓名</th>
+                                    <th>年龄</th>
+                                    <th>性别</th>
+                                    <th>手机号码</th>
+                                    <th>操作</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>公公</td>
+                                    <td>九千岁</td>
+                                    <td>不男不女</td>
+                                    <td>13145208888</td>
+                                    <td>
+                                        <a href="#" class="btn btn-success btn-sm">编辑</a>
+                                        |
+                                        <a href="#" class="btn btn-danger btn-sm">删除</a>
+                                    </td>
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
         </div>
