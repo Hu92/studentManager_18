@@ -17,9 +17,57 @@
       <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
       <![endif]-->
 </head>
+<style>
+  .container {
+    margin-top: 170px;
+  }
+  .code-img {
+    height: 34px;
+  }
+</style>
 
 <body>
-
+  <div class="container">
+    <div class='row'>
+      <div class="col-md-6 col-md-offset-3">
+          <div class="panel panel-primary">
+              <div class="panel-heading">登录学生管理系统</div>
+              <div class="panel-body">
+                  <form class="form-horizontal">
+                      <div class="form-group">
+                        <label for="userName" class="col-sm-2 control-label">用户名</label>
+                        <div class="col-sm-10">
+                          <input type="text" name='userName' class="form-control" id="userName" placeholder="请输入用户名">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label for="userPass" class="col-sm-2 control-label">密码</label>
+                        <div class="col-sm-10">
+                          <input type="password" name="userPass" class="form-control" id="userPass" placeholder="请输入密码">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                          <label for="code" class="col-sm-2 control-label">验证码</label>
+                          <div class="col-sm-6">
+                            <input type="text" name='code' class="form-control" id="code" placeholder="请输入验证码">
+                          </div>
+                          <div class="col-sm-4"> 
+                            <img src="../image/code.PNG" alt="" class="code-img">
+                          </div>
+                        </div>
+                      <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                          <button type="submit" class="btn btn-primary">登录</button>
+                          <button type="submit" class="btn btn-danger">注销</button>
+                        </div>
+                      </div>
+                  </form>
+              </div>
+            </div>
+      </div>
+    </div>
+  </div>
+    
 </body>
 
 </html>
